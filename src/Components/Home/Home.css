@@ -1,0 +1,284 @@
+/* start ratings section  */
+section.ratings {
+    background-color: #a82d49;
+    padding: 40px 0px;
+  }
+  section.ratings h2,
+  span {
+    color: #fff;
+  }
+  section.ratings h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  section.ratings span {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  @media (max-width: 600px) {
+    section.ratings .col-md-3 {
+      margin: 18px 0px;
+    }
+  }
+  /* end ratings section */
+  /* start section about */
+  section.about,
+  section.about2,
+  section.explore-food,
+  section.faq,
+  section.passion,
+  section.contact {
+    padding: 60px 0px;
+  }
+  section.about h2,
+  section.about2 h2 {
+    color: #43121d;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+  section.about p,
+  section.about2 p,
+  section .explore-heading p {
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #535353;
+    line-height: 1.8rem;
+    width: 80%;
+  }
+  section.about #about-button,
+  section.about2 #about2-button,
+  .explore-content div button {
+    border: 2px solid transparent;
+    background-color: #a82d49;
+    transition: 0.4s;
+    text-transform: uppercase;
+    margin: 25px 10px 25px 0px;
+    padding: 7px 28px;
+    font-weight: 600;
+  }
+  section.about #about-button a,
+  section.about2 #about2-button a {
+    color: white;
+    transition: 0.4s;
+  }
+  section.about #about-button:hover a,
+  section.about2 #about2-button:hover a {
+    color: #a82d49;
+  }
+  section.about #about-button:hover,
+  section.about2 #about2-button:hover {
+    border: 2px solid #a82d49;
+    background-color: #fff;
+  }
+  /* end section about*/
+  /* start section about2 */
+  section.about2 ul {
+    margin-top: 25px;
+  }
+  section.about2 ul li i {
+    color: #a82d49;
+    font-size: 1.5rem;
+  }
+  /* end section about2 */
+  /* start section our-story */
+  section.our-story {
+    background-image: url("./../../assets/1-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 0px;
+  }
+  section.our-story .col .content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  section.our-story h2 {
+    color: #a82d49;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  section.our-story p,
+  section.faq p,
+  section.contact p {
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #535353;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-bottom: 2.2rem;
+  }
+  section.our-story a {
+    color: #43121d;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  /* end section our-story */
+  /* start section explore-food */
+  section .explore-heading h2 {
+    color: #43121d;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  section .explore-content h3 {
+    color: #43121d;
+    font-weight: 500;
+    margin: 18px 0 0 0;
+  }
+  section .explore-content h4 {
+    color: #535353;
+    font-weight: 500;
+  }
+  section .explore-content h4:last-child {
+    font-weight: 700;
+  }
+  section .explore-content span.beforeDis {
+    color: #a82d49;
+  }
+  section .explore-content span.afterDis {
+    color: rgb(128, 128, 128, 0.9);
+  }
+  .explore-content div button {
+    color: #fff;
+  }
+  .explore-content div button:hover {
+    color: #a82d49;
+    background-color: #fff;
+    border: 2px solid #a82d49;
+  }
+  
+  /* end section explore-food */
+  /* start slider section */
+  
+  section.slider {
+    padding: 60px 0px;
+    background-color: #a82d49;
+  }
+  section.slider .slide-heading h2 {
+    font-weight: 600;
+    font-size: 2.3rem;
+  }
+  section.slider .container {
+    padding: 30px 0px;
+  }
+  section.slider img {
+    display: block;
+    margin: auto;
+    margin-bottom: 160px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: none !important;
+  }
+  section.slider h3 {
+    color: #535353 !important;
+    font-weight: 300 !important;
+    line-height: 2.2rem;
+  }
+  section.slider span {
+    color: #a82d49;
+    margin-top: 20px !important;
+    font-weight: 800;
+    position: relative;
+    top: 30px;
+  }
+  .carousel-indicators [data-bs-target] {
+    position: relative;
+    top: 100px;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+  }
+  
+  @media (max-width: 400px) {
+    section.slider .container {
+      width: 92%;
+    }
+    section.slider h3 {
+      line-height: 1.5rem;
+    }
+    section.slider img {
+      margin-bottom: 190px;
+    }
+  }
+  /* end slider section */
+  /* start faq section */
+  section.faq h2,
+  section.faq h4 {
+    color: #43121d;
+  }
+  
+  /* end faq section */
+  /* start passion section */
+  section.passion {
+    background-image: url("./../../assets/passion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  section.passion button,
+  section.contact button {
+    border: 2px solid transparent;
+    background-color: #a82d49;
+    transition: 0.4s;
+    text-transform: uppercase;
+    margin: 25px 10px 25px 0px;
+    padding: 12px 28px;
+    font-weight: 600;
+    color: #fff;
+  }
+  section.passion button:hover,
+  section.contact button:hover {
+    border: 2px solid #a82d49;
+    color: #a82d49;
+    background-color: transparent;
+  }
+  
+  /* end passion section */
+  /* start contact section */
+  section.contact h2 {
+    color: #43121d;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  section.contact input {
+    padding: 12px 18px;
+    border: 3px solid #e5e5e5;
+    font-weight: 700;
+  }
+  section.contact input:focus {
+    outline: 0;
+  }
+  section.contact p {
+    margin-bottom: 0;
+  }
+  @media (max-width: 600px) {
+    section.contact div.d-flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    section.contact div input {
+      width: 50% !important;
+      margin-top: 1rem;
+    }
+    section.contact div button {
+      padding: 12px 33px !important;
+      margin-top: 0;
+    }
+  }
+  
+  /* end contact section */
+  
